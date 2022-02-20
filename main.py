@@ -32,7 +32,6 @@ data_dict = data.to_dict(orient='records')
 #     english[i] = english[i].replace('|', '').replace(' to ', '| to ')
 #     english[i] = english[i].strip().replace('  ', ' | ')
 #
-#
 # new_data = {
 #     'Arabic': arabic,
 #     'English': english
@@ -43,7 +42,6 @@ data_dict = data.to_dict(orient='records')
 
 # data_dict = pandas.Series(data.Arabic.values, index=english).to_dict()
 # print(data_dict)
-
 
 # ------------- Functions --------------- #
 
